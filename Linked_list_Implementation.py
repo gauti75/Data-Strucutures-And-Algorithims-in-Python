@@ -61,9 +61,6 @@ class linked_list():
         if index<0 or index>=self.find_length():
             print("error")
 
-        
-        
-            
         while current_node:
             if current_index==index-1:
                 current_node.next=current_node.next.next
@@ -71,13 +68,7 @@ class linked_list():
             current_node=current_node.next
             current_index+=1
             
-        
-  
 
-    
-
-
-    
 example=linked_list()
 
 example.insert(23)
